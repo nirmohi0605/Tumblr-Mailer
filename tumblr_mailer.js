@@ -25,13 +25,13 @@ var csvParse = function(file){
 	var contactArray = contacts;
 	var contactList = [];
 
-	//constructor function that makes an object with contact keys
+	
 	function ObjectArray(firstName, lastName, numMonthsSinceContact, email){
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.numMonthsSinceContact = numMonthsSinceContact;
 		this.email = email;
-	};
+	}; //constructor function 
 
 	
 	for (i in contactArray){
